@@ -1,0 +1,49 @@
+mat-toolbar{
+  display: flex;
+  align-items: center;
+}
+.menu-top{
+  height: 8vh;
+}
+
+.container {
+  width: 100%;
+  height: 92vh;
+}
+
+.corpo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  width: 80%;
+  padding: 5px;
+}
+
+.menu-corpo{
+  display: flex;
+  justify-content: center;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.example-icon{
+  border: none;
+  background-color: transparent;
+  color: #FFF;
+}
+mat-icon{
+  font-size: 35px;
+  margin-right: 10px;
+}
+
+@media(min-width: 600px) {
+  .menu{
+    width: 18%;
+  }
+}
